@@ -1,0 +1,18 @@
+body {
+    width: 1000px;
+}
+.Box {
+    box-sizing: border-box;
+    width: 1000px;
+    padding: 20px;
+    margin: 0px;
+    border: solid black;
+}
+
+.Box-Full .Box{
+    width: 100%
+}
+
+.Box--halfw .Box{
+    width:50%
+}
